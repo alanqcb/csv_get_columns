@@ -61,6 +61,11 @@ for fi in files:
         files_final.append(fi[2:-4] +';' + str(mc) + ';')
     i1+=1
 print("fim")
+i=0
 with open("output\\out.csv", "w", encoding="utf-8-sig") as f:
+
     for item in files_final:
+        if (i==0):
+            f.write("tabela; colunas;\r")    
+            i+=1
         f.write(item+"\r")
