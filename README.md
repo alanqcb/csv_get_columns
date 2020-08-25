@@ -19,3 +19,6 @@
 Por fim, instale a depedência usando o comando 
 * pip install substring
 
+## Edição e Debug
+
+* Use o Visual Code, instale o módulo de desenvolvimento Python e o Linter para Python.
